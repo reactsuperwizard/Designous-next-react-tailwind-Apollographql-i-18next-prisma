@@ -1,0 +1,58 @@
+
+
+.ais-ClearRefinements {
+  margin: 1em 0;
+}
+
+.ais-SearchBox {
+  margin: 1em 0; 
+}
+
+.ais-SearchBox-form {
+  @apply mx-4 md:mx-8 2xl:mx-16 mb-4 py-6 lg:py-8 flex space-x-4 items-center justify-center rounded-md
+}
+
+.ais-SearchBox-input {
+  @apply py-2 px-4 md:px-5 w-full appearance-none transition duration-150 ease-in-out border text-input text-xs lg:text-sm font-body rounded-md placeholder-body transition duration-200 ease-in-out bg-white border-gray-300 focus:outline-none focus:border-heading h-11 md:h-12 text-base font-semibold
+}
+
+.ais-Pagination {
+  margin-top: 1em;
+}
+
+.left-panel {
+  @apply flex-shrink-0 pe-24 hidden lg:block w-48
+}
+
+.right-panel {
+  @apply w-full lg:-ms-9
+}
+
+.ais-InstantSearch {
+  max-width: 960px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.ais-Hits-item,
+.ais-InfiniteHits-item {
+  margin-bottom: 1em;
+  width: calc(50% - 1rem);
+}
+
+.ais-Hits-item img,
+.ais-InfiniteHits-item img {
+  margin-right: 1em;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0.5em;
+}
+
+.hit-name {
+  margin-bottom: 0.5em;
+}
+
+.hit-info {
+  font-size: 90%;
+}
+

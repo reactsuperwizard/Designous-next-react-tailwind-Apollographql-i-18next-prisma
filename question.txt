@@ -1,0 +1,3 @@
+QueryClient, QueryClientProvider
+router.locale
+optimize the perfromance
